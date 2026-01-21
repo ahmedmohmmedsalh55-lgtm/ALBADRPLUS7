@@ -10,7 +10,7 @@ $tokens = "8252765251:AAEkp5AZ7_4QChprvcMy3qTtZ8N9PxwsWLk"; //توكنك مرة 
 #تعديل وتطوير حمادة 
 define('API_KEY',$token);
 function bot($method,$datas=[]){
-$url = "https://api.telegram.org/bot".API_KEY."/".$method;
+$url = "https://albadrplus7.onrender.com".API_KEY."/".$method;
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL,$url); curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
 curl_setopt($ch,CURLOPT_POSTFIELDS,$datas);
